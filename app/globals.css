@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.TG {
+  @apply bg-gradient-to-r from-orange-400 to-purple-600 bg-clip-text text-transparent;
+}
+
+.MH {
+  @apply text-5xl font-extrabold;
+}
+
+/* RootLayout */
+
+body {
+  @apply max-w-4xl mx-auto py-10;
+}
+
+main {
+  @apply py-20;
+}
+
+.LHD {
+  @apply flex items-center justify-between;
+}
+
+.LP {
+  @apply flex items-center gap-5 text-sm text-gray-600;
+}
+
+.LPL {
+  @apply hover:underline;
+}
+
+/* HomePage */
+
+.HPH {
+  @apply text-7xl font-extrabold TG;
+}
+
+.HPP {
+  @apply mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8;
+}
+
+.HPL {
+  @apply border border-slate-200 p-1 hover:scale-105 hover:border-blue-200 transition;
+}
+
+.HPI {
+  @apply object-cover;
+}
+
+.HPN {
+  @apply mb-2 font-extrabold TG;
+}
+
+/* Project Page */
+
+.HD {
+  @apply flex items-center justify-between;
+}
+
+.HDA {
+  @apply bg-gray-100 text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-slate-300 transition cursor-pointer;
+}
+
+.PT {
+  @apply text-lg text-gray-700 mt-5;
+}
+
+.PI {
+  @apply mt-10 object-cover;
+}
+
+/* New Page */
+
+.PPT {
+  @apply text-lg text-gray-700 mt-10 font-bold;
+}
