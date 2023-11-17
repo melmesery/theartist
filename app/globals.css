@@ -16,13 +16,13 @@
 }
 
 .MH {
-  @apply text-5xl font-extrabold;
+  @apply text-xl md:text-5xl font-extrabold;
 }
 
 /* RootLayout */
 
 body {
-  @apply max-w-4xl mx-auto py-10;
+  @apply max-w-5xl mx-auto p-10;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 /* HomePage */
 
 .HPH {
-  @apply text-7xl font-extrabold TG;
+  @apply text-3xl md:text-7xl font-extrabold TG;
 }
 
 .HPP {
@@ -84,5 +84,5 @@ main {
 /* New Page */
 
 .PPT {
-  @apply text-lg text-gray-700 mt-10 font-bold;
+  @apply text-sm md:text-lg text-gray-700 mt-10 font-bold;
 }
